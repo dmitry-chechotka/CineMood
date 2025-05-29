@@ -1,13 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Project</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <h1>Hello, world!</h1>
-  <script src="js/script.js"></script>
-</body>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineMood AI - Nākotnes Filmu Ieteikumi</title>
+    <link rel="stylesheet" href="style_index.css" />
+  </head>
+  <body>
+    <!-- Animētais fons -->
+    <div class="background"></div>
+    <div class="overlay"></div>
+
+    <!-- Peldošas daļiņas -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigācija -->
+    <nav>
+      <div class="nav-container">
+        <img
+          src="Cinemood_ok.png"
+          alt="CineMood AI Logo"
+          style="height: 48px; vertical-align: middle; margin-right: 12px"
+        />
+
+        <ul class="nav-links">
+          <li><a href="#hero">Sākums</a></li>
+          <li><a href="#features">Funkcijas</a></li>
+          <li><a href="chat.html">Demo</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero sadaļa -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Nākotne ir šeit</h1>
+        <p class="subtitle">AI-powered filmu ieteikumu sistēma</p>
+        <p class="description">
+          CineMood AI izmanto mākslīgo intelektu, lai analizētu jūsu noskaņojumu
+          un sniegtu personalizētus filmu ieteikumus. Vienkārši pastāstiet, kā
+          jūtaties, un mēs atradīsim perfekto filmu jūsu vakaram.
+        </p>
+        <div class="cta-buttons">
+          <a href="chat.html" class="btn btn-primary pulse"
+            >🚀 Izmēģināt Demo</a
+          >
+          <a href="#features" class="btn btn-secondary">📖 Uzzināt Vairāk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features sadaļa -->
+    <section class="features" id="features">
+      <h2>Kāpēc CineMood AI?</h2>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="feature-icon">🧠</span>
+          <h3>AI Analīze</h3>
+          <p>
+            Progresīva dabiskās valodas apstrāde, kas saprot jūsu emocionālo
+            stāvokli un preferences.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">🎯</span>
+          <h3>Personalizēti Ieteikumi</h3>
+          <p>
+            Katrs ieteikums ir pielāgots jūsu konkrētajai situācijai un
+            noskaņojumam.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">⚡</span>
+          <h3>Ātri Rezultāti</h3>
+          <p>Iegūstiet kvalitatīvus filmu ieteikumus dažu sekunžu laikā.</p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">🌍</span>
+          <h3>Latviešu Valoda</h3>
+          <p>
+            Pilnībā lokalizēta pieredze ar dabīgu latviešu valodas atbalstu.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">📱</span>
+          <h3>Responsīvs Dizains</h3>
+          <p>
+            Perfekta funkcionalitāte uz jebkuras ierīces - datora, planšetes vai
+            telefona.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <span class="feature-icon">🔐</span>
+          <h3>Droša Platforma</h3>
+          <p>Jūsu dati ir drošībā ar mūsdienīgām drošības tehnoloģijām.</p>
+        </div>
+      </div>
+
+      <!-- Tech Stack -->
+      <div class="tech-stack">
+        <h3>🛠️ Izmantotās Tehnoloģijas</h3>
+        <div class="tech-badges">
+          <div class="tech-badge">Google Gemini AI</div>
+          <div class="tech-badge">JavaScript ES6+</div>
+          <div class="tech-badge">HTML5</div>
+          <div class="tech-badge">CSS3 Advanced</div>
+          <div class="tech-badge">REST API</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+      <h2>Gatavs uzzināt savas nākamās mīļākās filmas?</h2>
+      <p style="font-size: 1.2em; margin-bottom: 30px; opacity: 0.8">
+        Paldies :)
+      </p>
+      <a href="chat.html" class="btn btn-primary pulse">🎬 Sākt Tagad</a>
+    </section>
+
+    <script src="index_script.js"></script>
+  </body>
 </html>

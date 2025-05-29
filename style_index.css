@@ -1,0 +1,401 @@
+/* style_index.css */
+/* Importē fontu */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Pamata stili un reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #2d1a23;
+  color: #fff;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Animēts fona efekts */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    #fbb1c8 0%,
+    #e73768 25%,
+    #fff3f6 50%,
+    #2d1a23 75%,
+    #1d1016 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  z-index: -2;
+}
+
+/* Dinamiskais overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(45, 26, 35, 0.85);
+  backdrop-filter: blur(1px);
+  z-index: -1;
+}
+
+/* Peldošas daļiņas */
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.particle {
+  position: absolute;
+  background: rgba(251, 177, 200, 0.13);
+  border-radius: 50%;
+  animation: float 20s infinite linear;
+}
+
+/* Navigācija */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 50px;
+  background: rgba(255, 243, 246, 0.13);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #fff3f6;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: 800;
+  background: linear-gradient(45deg, #e73768, #fbb1c8, #fff3f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-links a:hover {
+  color: #e73768;
+  transform: translateY(-2px);
+}
+
+/* Galvenā hero sadaļa */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  z-index: 10;
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 800;
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #e73768, #fbb1c8, #fff3f6, #2d1a23);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: textShine 3s ease-in-out infinite alternate;
+}
+
+.hero .subtitle {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  margin-bottom: 30px;
+  opacity: 0.93;
+  font-weight: 300;
+  color: #e73768;
+  animation: fadeInUp 1s ease 0.3s both;
+}
+
+.hero .description {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  margin-bottom: 40px;
+  opacity: 0.8;
+  line-height: 1.8;
+  color: #fff;
+  animation: fadeInUp 1s ease 0.6s both;
+}
+
+/* CTA pogas */
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease 0.9s both;
+}
+
+.btn {
+  padding: 18px 35px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #e73768, #fbb1c8);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(231, 55, 104, 0.13);
+}
+
+.btn-secondary {
+  background: rgba(255, 243, 246, 0.13);
+  color: #111;
+  border: 2px solid #fbb1c8;
+  backdrop-filter: blur(10px);
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(231, 55, 104, 0.18);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 20px 40px rgba(231, 55, 104, 0.18);
+}
+
+/* Features sadaļa */
+.features {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  margin-bottom: 60px;
+  background: linear-gradient(45deg, #e73768, #fbb1c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.feature-card {
+  background: rgba(255, 243, 246, 0.13);
+  padding: 40px 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid #fff3f6;
+  transition: all 0.3s ease;
+  text-align: center;
+  color: #fff;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  background: rgba(251, 177, 200, 0.18);
+  box-shadow: 0 25px 50px rgba(231, 55, 104, 0.13);
+}
+
+.feature-icon {
+  font-size: 3em;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.feature-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #e73768;
+}
+
+/* Tech stack */
+.tech-stack {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.tech-stack h3 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: #e73768;
+}
+
+.tech-badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tech-badge {
+  background: rgba(251, 177, 200, 0.18);
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: 1px solid #fbb1c8;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.tech-badge:hover {
+  background: rgba(231, 55, 104, 0.13);
+  transform: scale(1.05);
+}
+
+/* Footer CTA */
+.footer-cta {
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(45, 26, 35, 0.93);
+}
+
+.footer-cta h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #e73768, #fbb1c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animācijas */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes textShine {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(45deg);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Responsīvs dizains */
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    width: 250px;
+  }
+  .features {
+    padding: 60px 20px;
+  }
+}
+
+/* Pulsējošs efekts pogām */
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(231, 55, 104, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(231, 55, 104, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(231, 55, 104, 0);
+  }
+}
