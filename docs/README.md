@@ -81,7 +81,7 @@ CineMood is a personal project that leverages Google Gemini AI to provide empath
 ### Live Mājaslapas izvietojums
 
 <p align="left">
-  <a href="https://dmitry-chechotka.github.io/Website_Formas/" target="_blank">
+  <a href="https://dmitry-chechotka.github.io/CineMood/" target="_blank">
     <img src="https://img.shields.io/badge/Website-Live-333333?style=flat-square" alt="Website Live Link" height="24">
   </a>
 </p>
