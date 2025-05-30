@@ -2,7 +2,7 @@
 
 > Find your movie. | Atrodi savu filmu.
 
-### 🌐 Live Website Deployment
+### Live Website Deployment
 
 <p align="left">
   <a href="https://dmitry-chechotka.github.io/CineMood/" target="_blank">
@@ -56,6 +56,8 @@ CineMood is a personal project that leverages Google Gemini AI to provide empath
 
 ### Quick Start
 
+- Use the [Live Website Deployment button](#live-website-deployment) or:
+
 1. Open `index.html` in your browser.
 2. Click "Try Demo" or "Start Now".
 3. In the chat, describe your mood or what you want to watch.
@@ -76,7 +78,7 @@ CineMood is a personal project that leverages Google Gemini AI to provide empath
 [🇬🇧 English version](#english-version)
 
 
-### 🌐 Live Mājaslapas izvietojums
+### Live Mājaslapas izvietojums
 
 <p align="left">
   <a href="https://dmitry-chechotka.github.io/Website_Formas/" target="_blank">
@@ -118,6 +120,8 @@ CineMood ir personīgs projekts, kas izmanto Google Gemini AI, lai sniegtu empā
 > **Piezīme:** Mājaslapa un AI atbildes šobrīd ir tikai latviešu valodā, bet AI saprot jebkuru valodu. Angļu un citu valodu lokalizācijas plānotas nākotnē.
 
 ### Ātrā sākšana
+
+- Izmantojiet [Live Mājaslapas izvietojuma pogu](#live-mājaslapas-izvietojums) vai:
 
 1. Atver `index.html` pārlūkā.
 2. Spied "Izmēģināt Demo" vai "Sākt Tagad".
