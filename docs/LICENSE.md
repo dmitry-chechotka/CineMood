@@ -1,4 +1,4 @@
-Copyright (c) 2025 Dmitry Chechotka / github dmitry-chechotka
+Copyright (c) 2025 Dmitry Chechotka / [dmitry-chechotka](https://github.com/dmitry-chechotka)
 
 ---
 
