@@ -1,8 +1,23 @@
 # CineMood
 
-> Find your mood. | Atrodi savu noskaņojumu.
+> Find your movie. | Atrodi savu filmu.
 
-CineMood is an AI-powered movie recommendation web app that helps you discover the perfect film for your mood, in Latvian. Just describe how you feel, and CineMood will suggest the best movies for your evening. | CineMood ir AI filmu ieteikumu aplikācija latviešu valodā, kas palīdz atrast ideālo filmu tieši Tavam noskaņojumam. Pastāsti, kā jūties, un saņem personalizētus ieteikumus!
+### 🌐 Live Website Deployment
+
+<p align="left">
+  <a href="https://dmitry-chechotka.github.io/CineMood/" target="_blank">
+    <img src="https://img.shields.io/badge/Website-Live-333333?style=flat-square" alt="Website Live Link" height="24">
+  </a>
+</p>
+
+---
+
+🇬🇧 CineMood is an AI-powered movie recommendation web app that helps you discover the perfect film for your mood, in Latvian. Just describe how you feel, and CineMood will suggest the best movies for your evening. 
+
+🇱🇻 CineMood ir AI filmu ieteikumu aplikācija latviešu valodā, kas palīdz atrast ideālo filmu tieši Tavam noskaņojumam. Pastāsti, kā jūties, un saņem personalizētus ieteikumus!
+
+Pārvietoties uz Latviešu valodas aprakstu:
+[🇱🇻 Latvian version](#latvian-section)
 
 ---
 
@@ -12,8 +27,6 @@ If you are interested in contributing to or licensing this Software for other us
 ---
 
 **Before using or sharing this project, please read the [LICENSE.md](LICENSE.md).**
-
-[🇱🇻 Latvian version](#latvian-section)
 
 ---
 
@@ -62,14 +75,23 @@ CineMood is a personal project that leverages Google Gemini AI to provide empath
 
 [🇬🇧 English version](#english-version)
 
+
+### 🌐 Live Mājaslapas izvietojums
+
+<p align="left">
+  <a href="https://dmitry-chechotka.github.io/Website_Formas/" target="_blank">
+    <img src="https://img.shields.io/badge/Website-Live-333333?style=flat-square" alt="Website Live Link" height="24">
+  </a>
+</p>
+
 ---
 
-Projekts tiek izstrādāts.
+Projekts ir izstrādes posmā.
 Ja jūs interesē šīs programmatūras papildināšana vai licencēšana citiem lietošanas gadījumiem, lūdzu, sazinieties izmantojot [GitHub](https://github.com/dmitry-chechotka).
 
 ---
 
-**Before using or sharing this project, please read the [LICENSE.md](LICENSE.md).**
+**Pirms lietojat vai kopīgojat šo projektu, lūdzu, izlasiet [LICENSE.md](LICENSE.md).**
 
 ---
 
