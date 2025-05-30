@@ -12,7 +12,7 @@ CineMood is an AI-powered movie recommendation web app that helps you discover t
 
 ---
 
-## 🇬🇧 English Section
+## English Section
 
 ### Quick navigation
 
@@ -53,9 +53,9 @@ CineMood is a personal project that leverages Google Gemini AI to provide empath
 
 ---
 
-## 🇱🇻 Latvian Section
+## Latvian Section
 
-[🇬🇧 English version](#english-section)
+[🇬🇧 English version](#english-version)
 
 **Before using or sharing this project, please read the [LICENSE.md](LICENSE.md).**
 
