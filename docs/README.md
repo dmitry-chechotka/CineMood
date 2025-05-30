@@ -6,6 +6,11 @@ CineMood is an AI-powered movie recommendation web app that helps you discover t
 
 ---
 
+Project is under development.
+If you are interested in contributing to or licensing this Software for other use cases, please contact via [GitHub](https://github.com/dmitry-chechotka).
+
+---
+
 **Before using or sharing this project, please read the [LICENSE.md](LICENSE.md).**
 
 [🇱🇻 Latvian version](#latvian-section)
