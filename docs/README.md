@@ -62,6 +62,13 @@ CineMood is a personal project that leverages Google Gemini AI to provide empath
 
 [🇬🇧 English version](#english-version)
 
+---
+
+Projekts tiek izstrādāts.
+Ja jūs interesē šīs programmatūras papildināšana vai licencēšana citiem lietošanas gadījumiem, lūdzu, sazinieties izmantojot [GitHub](https://github.com/dmitry-chechotka).
+
+---
+
 **Before using or sharing this project, please read the [LICENSE.md](LICENSE.md).**
 
 ---
