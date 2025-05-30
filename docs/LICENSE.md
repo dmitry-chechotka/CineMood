@@ -2,7 +2,7 @@ Copyright (c) 2025 Dmitry Chechotka / github dmitry-chechotka
 
 ---
 
-If you are interested in contributing to or licensing this Software for other use cases, please contact the author via [GitHub profile](https://github.com/yourusername) or other listed contact method.
+If you are interested in contributing to or licensing this Software for other use cases, please contact the author via [GitHub profile](https://github.com/dmitry-chechotka) or other listed contact method.
 
 ---
 
