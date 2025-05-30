@@ -3,7 +3,7 @@
 // =================================
 
 // SVARĪGI: Aizstāt ar savu Gemini API atslēgu!
-const GEMINI_API_KEY = 'GEMINI_API_KEY_HERE';
+const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE';
 const GEMINI_API_URL =
   'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
@@ -64,7 +64,7 @@ async function sendMessage() {
   if (!message) return;
 
   // Pārbauda API atslēgas esamību
-  if (GEMINI_API_KEY !== 'YOUR_GEMINI_API_KEY_HERE') {
+  if (GEMINI_API_KEY === 'YOUR_GEMINI_API_KEY_HERE') {
     alert(
       'Lūdzu, aizstāj GEMINI_API_KEY programmas kodā ar savu īsto API atslēgu!'
     );
